@@ -1,22 +1,8 @@
-const discord = require("discord.js")
-const client = new discord.Client({
-    intents: (
-        discord.Intents.FLAGS.GUILDS,
-        discord.Intents.FLAGS.GUILD_MESSAGES
-    )
-});
-const config = require(`./config.json`)
+const Discord = require("discord.js");
+const bot = new Discord.Client();
 
-client.on("ready", () => {
-    console.log("Jsem ready");
+bot.on("ready", function (){
+    console.log(`${bot.user.username} is online`);
 });
 
-client.on("messageCreate", (message) => {
-    if (message.content === "ping") {
-        message.reply({
-            content: "pong"
-        })
-    }
-})
-
-client.login(config.token)
+bot.login(process.env.token)
