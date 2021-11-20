@@ -3,18 +3,14 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "start": "node index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node index.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/tomason369/discordjs1.git"
   },
-  "keywords": [
-    "discordbot",
-    "v13bot",
-    "bot"
-  ],
   "author": "toma_son",
   "license": "ISC",
   "bugs": {
