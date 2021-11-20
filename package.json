@@ -10,8 +10,12 @@
     "type": "git",
     "url": "git+https://github.com/tomason369/discordjs1.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "discordbot",
+    "v13bot",
+    "bot"
+  ],
+  "author": "toma_son",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/tomason369/discordjs1/issues"
